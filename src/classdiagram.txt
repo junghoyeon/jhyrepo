@@ -1,0 +1,27 @@
+abstract class Duck {
+  -flyBehavior:FlyBehavior
+  -quackBehavior:QuackBehavior
+  +swim()
+  abstract display()
+  +display()
+  +setFlyBehavior(FlyBehavior fb)
+  +setQuackBehavior(QuackBehavior qb)
+}
+
+Duck <|-- MallardDuck
+Duck <|-- RedHatDuck
+Duck <|-- RubberDuck
+Duck <|-- DecoyDuck
+
+Interface Quackable {
+  +quack()
+}
+
+Interface Flyalbe {
+  +fly()
+}
+
+QuckBehavior <|.. Qack
+FlyBehavior <|.. FlyWithWings
+Duck -right> Quackable
+Duck -right> Flyable
