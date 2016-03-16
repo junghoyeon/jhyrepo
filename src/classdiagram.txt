@@ -17,11 +17,11 @@ Interface Quackable {
   +quack()
 }
 
-Interface Flyalbe {
+Interface Flyable {
   +fly()
 }
 
-QuckBehavior <|.. Qack
+QuackBehavior <|.. Quack
 FlyBehavior <|.. FlyWithWings
 Duck -right> Quackable
 Duck -right> Flyable
