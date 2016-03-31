@@ -1,0 +1,3 @@
+WeatherData ..> BroadcastingCompany
+WeatherData ..> AgricultureAgency
+WeatherData ..> SportsDisplay
