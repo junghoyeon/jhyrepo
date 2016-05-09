@@ -1,0 +1,11 @@
+package com.j1.w10.adapter;
+
+public class WildTurkey implements Duck {
+  Turkey turkey;
+  public WildTurkey(Turkey turkey) {
+    this.turkey=turkey;
+  }
+  public void quack(){
+    turkey.gobble();
+  }
+}
