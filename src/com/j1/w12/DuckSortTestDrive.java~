@@ -1,0 +1,9 @@
+package com.j1.w12;
+
+public class DuckSortTestDrive {
+  public static void main(String[] args) {
+    Duck[] ducks={new Duck.....}
+    ...
+    Array.sort(ducks);
+  }
+}

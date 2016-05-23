@@ -1,0 +1,9 @@
+package com.j1.w12;
+
+public class DuckComparator implements Comparator {
+  public int compare(Object o1, Objecto2); {
+    Duck duck1=(Duck) o1;
+    Duck duck2=(Duck) o2;
+    return duck1.weight - duck2.weight;
+  }
+}
