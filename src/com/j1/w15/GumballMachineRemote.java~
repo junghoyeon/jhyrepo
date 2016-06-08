@@ -1,0 +1,13 @@
+package com.j1.w14.;
+
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface GumballMachineRemote {
+  public int getCount throws RemoteException;
+    public String GetLocation(() throws RemoteException;
+      public State getState() throw RemoteExecption;
+                               
+}
+                                                                                      
